@@ -69,7 +69,9 @@ Private helpers are used internally to ensure testability and reusability of com
 
 ## About This Project
 
-**SwiftRESTKit** was created to reduce boilerplate in network layer setup across iOS/macOS Swift projects. It emphasizes readability, testability, and Swift-native design patterns.
+SwiftRESTKit was created as part of a personal effort to review REST fundamentals before starting a new engineering apprenticeship. It helped reinforce practical concepts like request construction, HTTP methods, and header management while building a reusable, testable foundation for future networking work.
+
+The project emphasizes readability, modularity, and Swift-native design patterns.
 
 ## Contributing
 
