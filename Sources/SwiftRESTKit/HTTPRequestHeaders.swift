@@ -9,7 +9,6 @@ struct HTTPRequestHeaders {
     var accept: MediaType?
     var contentType: MediaType?
     var authorization: String?
-    var userAgent: String?
     var custom: [String: String] = [:]
 }
 
@@ -43,7 +42,6 @@ extension HTTPRequestHeaders {
         if let accept { dict["Accept"] = accept.value }
         if let contentType { dict["Content-Type"] = contentType.value }
         if let authorization { dict["Authorization"] = authorization }
-        if let userAgent { dict["User-Agent"] = userAgent }
 
         for (key, value) in custom {
             dict[key] = value

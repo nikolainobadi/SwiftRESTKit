@@ -13,5 +13,11 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftRESTKit"),
+        .testTarget(
+            name: "SwiftRESTKitTests",
+            dependencies: [
+                "SwiftRESTKit"
+            ]
+        )
     ]
 )
